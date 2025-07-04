@@ -1,0 +1,26 @@
+# Ignorar diretórios de build do CMake/CLion
+cmake-build-debug/
+cmake-build-release/ # Se você tiver um build de release
+
+# Ignorar executáveis e outros arquivos binários
+*.exe
+*.dll
+*.obj
+*.o
+
+# Ignorar arquivos de cache do CMake
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+.cmake/
+build.ninja
+Testing/
+
+# Ignorar arquivos temporários do CLion ou outros IDEs
+/.idea/ # Pasta de configuração do CLion
+*.iml
+*.iws
+
+# Outros arquivos temporários
+*.log
+*.tmp
